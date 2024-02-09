@@ -1,0 +1,41 @@
+.layer{
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+  color:  rgb(44, 62, 80);
+}
+
+.icon{
+   left: 49%;
+   bottom: 0;
+}
+.biglayer{
+opacity: 0;
+background-color:#1abc9ce6;
+transition: all 0.8s;
+border-radius: 5px;
+}
+.biglayer:hover{
+  opacity: 1;
+}
+.imglayer{
+/* background-image: url("../../assets/poert1.png");
+ background-position: center;
+background-size: cover; */
+    width: 40%;
+    height: 400px;
+
+}

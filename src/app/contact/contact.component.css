@@ -1,0 +1,15 @@
+/* input.form-control[_ngcontent-fec-c16]:focus {
+    box-shadow: none ;
+    
+} */
+.form-control:focus {
+
+    box-shadow: none;
+}
+.colorlabel{
+    color: #1abc9c;
+}
+.icon{
+   left: 49%;
+   bottom: 0;
+}

@@ -1,0 +1,78 @@
+
+<!-- <div class="container">
+    <h2 class="text-center">PORTFOLIO COMPONENT</h2>
+    <div class="row gy-5 py-5">
+        <div class="col-md-4 position-relative" >
+<img (click)="hi($event)" src="assets/poert1.png" alt=""class="w-100 rounded "  >
+<div class="biglayer position-absolute top-0 start-0 end-0 bottom-0"></div>
+        </div>
+        <div class="col-md-4">
+            <img  (click)="hi($event)"src="assets/port2.png" alt="" class="w-100  rounded ">
+        </div>
+        <div class="col-md-4">
+            <img  (click)="hi($event)"src="assets/port3.png" alt="" class="w-100  rounded">
+        </div>
+        <div class="col-md-4">
+            <img  (click)="hi($event)"src="assets/poert1.png" alt=""class="w-100  rounded">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/port2.png"(click)="hi($event)" alt="" class="w-100 rounded ">
+                    </div>
+                    <div class="col-md-4">
+                        <img (click)="hi($event)" src="assets/port3.png" alt="" class="w-100 rounded">
+                    </div>
+    </div>
+</div> -->
+
+
+<div class="container py-5">
+    <div class="py-5 head">
+        <h2 class="text-center py-5 title position-relative ">PORTFOLIO COMPONENT
+            <i class="fa-solid fa-star position-absolute  icon fs-5"></i>
+        </h2>
+       
+    </div>
+  
+    <div class="row gy-5 ">
+        <div class="col-md-4 position-relative " >
+<img (click)="hi($event)" src="assets/poert1.png" alt=""class="w-100 rounded  "  >
+<div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/poert1.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/poert1.png"></i> </div>
+        </div>
+        <div class="col-md-4 position-relative" >
+            <img (click)="hi($event)" src="assets/port2.png" alt=""class="w-100 rounded "  >
+           
+            <div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/port2.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/port2.png"></i> </div>
+
+           
+                    </div>
+                    <div class="col-md-4 position-relative" >
+                        <img (click)="hi($event)" src="assets/port3.png" alt=""class="w-100 rounded "  >
+                        <div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/port3.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/port3.png"(click)="hi($event)"></i> </div>
+                                </div>
+                                <div class="col-md-4 position-relative" >
+                                    <img (click)="hi($event)" src="assets/poert1.png" alt=""class="w-100 rounded "  >
+                                    <div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/poert1.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/poert1.png"(click)="hi($event)"></i> </div>
+                                            </div>
+                                            <div class="col-md-4 position-relative" >
+                                                <img (click)="hi($event)" src="assets/port2.png" alt=""class="w-100 rounded "  >
+                                               
+                                                <div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/port2.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/port2.png"(click)="hi($event)"></i> </div>
+                                    
+                                               
+                                                        </div>
+                                                        <div class="col-md-4 position-relative" >
+                                                            <img (click)="hi($event)" src="assets/port3.png" alt=""class="w-100 rounded "  >
+                                                            <div class="biglayer position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center " data-v="assets/port3.png"(click)="hi($event)"  ><i class="fa-solid fa-plus display-1 " data-v="assets/port3.png"(click)="hi($event)"></i> </div>
+                                                                    </div>
+  
+    </div>
+</div>
+
+
+
+<div class="layer " (click)="dnone($event)" [class.d-none]="imgd" >
+    <div class="imglayer "(click)="d($event) "  >
+        <img [src]="imgsrc" alt="" class="w-100" (click)="d($event)">
+    </div>
+</div>
+<!-- // [class.d-none]="imgsrc==''" -->
